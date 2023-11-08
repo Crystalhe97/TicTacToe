@@ -47,7 +47,7 @@ if __name__ == '__main__':
         
         #mark the board
         board[row][col] = current_player
-        winnter = check_winner(board) #"O", "X" -> break out the loop
+        winner = check_winner(board) #"O", "X" -> break out the loop
 
 
         current_player = switch_player(current_player)
